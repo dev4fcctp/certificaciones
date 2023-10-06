@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campaña</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/estilos_ec.css" />
+
+</head>
+
+<body class="bg-light p-4">
+    <div class="container-fluid">
+        <!-- Titulo y breadcrumb -->
+        <div class="navegacion">
+            <div class="h4 mb-0 tit-seccion">
+                <span class="tit_seccion bold">Cursos CEP</span>
+            </div>
+            <div class="mibread">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="#">Cursos CEP</a></li>
+                        <li class="breadcrumb-item">Noviembre 2023</li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Fin Titulo y breadcrumb -->
+
+        <!-- Contenido -->
+        <div class="card px-4 px-lg-5 px-sm-4 py-4">
+
+            <!-- Bloque Top -->
+            <div class="row d-flex align-items-center my-2">
+                <div class="col-12">
+                    <!-- Seccion Titulo y subtitulo -->
+                    <div class="card-body pt-1">
+                        <div class="row">
+                            <div class="d-flex bloque_regresar">
+                                <div class="btn_regresar">
+                                    <a href="" class="btn btn-lg btn_rojo"><i class="fa-solid fa-chevron-left"></i></a>
+                                </div>
+                                <div class="tit_bloque">
+                                    <div>Campaña: Marzo 2024</div>
+                                    <span>Información y configuración de la campaña</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Seccion Titulo y subtitulo -->
+                </div>
+            </div>
+            <!-- Fin bloque Top -->
+
+
+            <!-- Contenido -->
+
+            <!-- Tab de contenidos -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 mb-3">
+                    <!-- Menu tab -->
+                    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"><i class="fa-light fa-database"></i>
+                                <span class="px-2">Importar registros</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false"><i class="fa-light fa-check-to-slot"></i><span
+                                    class="px-2">Solicitar
+                                    aprobación</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false"><i class="fa-light fa-file-check"></i><span
+                                    class="px-2">Documentos
+                                    aprobados</span></button>
+                        </li>
+                    </ul>
+                    <!-- Fin de Menu tab -->
+
+                    <!-- Cuerpo Tab -->
+                    <div class="tab-content cuerpo_card" id="pills-tabContent">
+
+                        <div class="tab-pane fade container-fluid px-4" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="text-center ">
+                                ---
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+                            <div class="row py-4 pb-5 d-flex justify-content-center">
+                                <!-- contenido grilla -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="card px-5 py-3 mb-3">
+                                            <div class="row">
+                                                <div class="col-12 text-center">
+                                                    <div class="mb-3">
+                                                        <span>Elija los tipos de documentos para solicitar
+                                                            aprobación:</span>
+                                                    </div>
+                                                </div>
+                                                <div class="card p-3 mb-3">
+                                                    <div class="text-center">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox1" value="option1">
+                                                            <label class="form-check-label"
+                                                                for="inlineCheckbox1">Certificado</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="checkbox"
+                                                                id="inlineCheckbox2" value="option2">
+                                                            <label class="form-check-label"
+                                                                for="inlineCheckbox2">Constancia</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card p-3 mb-3">
+                                                    <div class="text-center">
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input " type="radio"
+                                                                name="inlineRadioOptions" id="inlineRadio1"
+                                                                value="option1">
+                                                            <label class="form-check-label"
+                                                                for="inlineRadio1">Campaña</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="inlineRadioOptions" id="inlineRadio2"
+                                                                value="option2">
+                                                            <label class="form-check-label"
+                                                                for="inlineRadio2">Curso</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio"
+                                                                name="inlineRadioOptions" id="inlineRadio3"
+                                                                value="option3">
+                                                            <label class="form-check-label"
+                                                                for="inlineRadio3">Alumno</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="mt-1 table-responsive">
+                                                    <table class="table table-striped tabla_grilla">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>ID</th>
+                                                                <th>Tipo</th>
+                                                                <th>Documento solicitado</th>
+                                                                <th class="text-center">Fecha de envio</th>
+                                                                <th class="text-center">Avance de aprobación</th>
+                                                                <th class="text-center">Estado</th>
+                                                                <th class="text-center">Acción</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <th>S01</th>
+                                                                <td>Campaña</td>
+                                                                <td>Certificado</td>
+                                                                <td class="text-center">12/10/2023</td>
+                                                                <td class="text-center"><i
+                                                                        class="fa-regular fa-paper-plane-top px-1 color_error"></i>
+                                                                    Enviado</td>
+                                                                <td class="text-center">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg_warning"
+                                                                            role="progressbar"
+                                                                            aria-label="Example with label"
+                                                                            style="width: 0%;" aria-valuenow="0"
+                                                                            aria-valuemin="0" aria-valuemax="0">
+                                                                            0%
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center"><a
+                                                                        class="btn btn-sm btn_blanco btn_estandar"><i
+                                                                            class="fa-regular fa-file-certificate"></i>Ver
+                                                                        documentos
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>S01</th>
+                                                                <td>Campaña</td>
+                                                                <td>Certificado</td>
+                                                                <td class="text-center">12/10/2023</td>
+                                                                <td class="text-center"><i
+                                                                        class="fa-regular fa-clock px-1 color_info"></i>
+                                                                    En proceso</td>
+                                                                <td class="text-center">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg_info"
+                                                                            role="progressbar"
+                                                                            aria-label="Example with label"
+                                                                            style="width: 50%;" aria-valuenow="0"
+                                                                            aria-valuemin="0" aria-valuemax="0">
+                                                                            50%
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center"><a
+                                                                        class="btn btn-sm btn_blanco btn_estandar"><i
+                                                                            class="fa-regular fa-file-certificate"></i>Ver
+                                                                        documentos
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>S01</th>
+                                                                <td>Campaña</td>
+                                                                <td>Certificado</td>
+                                                                <td class="text-center">12/10/2023</td>
+                                                                <td class="text-center"><i
+                                                                        class="fa-regular fa-circle-check px-1 color_success"></i>
+                                                                    Finalizado</td>
+                                                                <td class="text-center">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar bg_success"
+                                                                            role="progressbar"
+                                                                            aria-label="Example with label"
+                                                                            style="width: 100%;" aria-valuenow="0"
+                                                                            aria-valuemin="0" aria-valuemax="0">
+                                                                            100%
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center"><a
+                                                                        class="btn btn-sm btn_blanco btn_estandar"><i
+                                                                            class="fa-regular fa-file-certificate"></i>Ver
+                                                                        documentos
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin contenido grilla -->
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+                            <div class="card card_rojo p-5 text-center ">
+                                <p><i class="fa-regular fa-file-circle-info fs-3 color_rojo "></i></p>
+                                <div class="fw-bold ">Requisito para visualizar documentos</div>
+                                <div class="texto_small">Para poder visualizar los documentos se requiere que el área de
+                                    decanato haya <br>revisado y
+                                    aprobado
+                                    todos los documentos
+                                    enviados.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                    <!-- Cuerpo Tab -->
+
+
+                </div>
+
+            </div>
+            <!-- Fin de Tab de contenidos -->
+
+
+
+            <!-- Fin de Contenido -->
+
+
+
+
+        </div>
+        <!-- Fin Contenido -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

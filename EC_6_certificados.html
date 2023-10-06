@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Certificados y constancias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/estilos_ec.css" />
+
+</head>
+
+<body class="bg-light p-4">
+    <div class="container-fluid">
+        <!-- Titulo y breadcrumb -->
+        <div class="navegacion">
+            <div class="h4 mb-0 tit-seccion">
+                <span class="tit_seccion bold">Cursos CEP</span>
+            </div>
+            <div class="mibread">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="#">Cursos CEP</a></li>
+                        <li class="breadcrumb-item">Certificado y Constancias</li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Fin Titulo y breadcrumb -->
+
+        <!-- Contenido -->
+        <div class="card px-4 px-lg-5 px-sm-4 py-4">
+
+            <!-- Bloque Top -->
+            <div class="row d-flex align-items-center my-2">
+                <div class="col-lg-9">
+                    <!-- Seccion Titulo y subtitulo -->
+                    <div class="card-body pt-1">
+                        <div class="row">
+                            <div class="tit_bloque">
+                                <div>Envío de Certificados y Constancias</div>
+                                <span>Registro de envios realizados por campaña</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Seccion Titulo y subtitulo -->
+                </div>
+                <div class="col-lg-3 text-lg-end text-md-start pb-lg-1 pb-md-3 pb-sm-3 pb-3">
+                    <!-- Boton Nuevo -->
+                    <div class="btn_add">
+
+                        <a href="#" type="button" class="btn btn_rojo btn_estandar" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"><i class="fa-regular fa-envelope"></i>Generar
+                            Envio</a>
+                    </div>
+                    <!-- Boton Nuevo -->
+                </div>
+            </div>
+            <!-- Fin bloque Top -->
+
+
+            <!-- Filtros y buscador -->
+            <div class="card bg-light p-3 py-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-8 col-sm-12 d-flex">
+                        <input type="text" class="form-control" id="buscador" placeholder="Buscar...">
+                        <a class="btn btn_verde mx-2"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Filtros y Buscador -->
+
+            <div class="mt-4 table-responsive">
+                <table class="table table-striped tabla_grilla">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nombre de campaña</th>
+                            <th>Nro registros</th>
+                            <th>Enviado</th>
+                            <th>Modalidad</th>
+                            <th class="text-center">Estado de envio</th>
+                            <th class="text-center">Enviados</th>
+                            <th class="text-center">Rechazados</th>
+                            <th class="text-center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>C003</th>
+                            <td>CEP - Marzo 2023</td>
+                            <td>236</td>
+                            <td>25/10/2023</td>
+                            <td>Campaña</td>
+                            <td><i class="fa-regular fa-circle-check px-1 color_success"></i> Finalizado</td>
+                            <td class="text-center">236</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center"><a href="" class="btn btn-sm btn_estandar btn_blanco"><i
+                                        class="fa-regular fa-file-lines"></i>Ver detalle</a></td>
+                        </tr>
+                        <tr>
+                            <th>C002</th>
+                            <td>CEP - Junio 2023</td>
+                            <td>188</td>
+                            <td>14/11/2022</td>
+                            <td>Campaña</td>
+                            <td><i class="fa-regular fa-circle-check px-1 color_success"></i> Finalizado</td>
+                            <td class="text-center">188</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center"><a href="" class="btn btn-sm btn_estandar btn_blanco"><i
+                                        class="fa-regular fa-file-lines"></i>Ver detalle</a></td>
+                        </tr>
+                        <tr>
+                            <th>C001</th>
+                            <td>CEP - Noviembre 2022</td>
+                            <td>156</td>
+                            <td>01/05/2023</td>
+                            <td>Campaña</td>
+                            <td><i class="fa-regular fa-circle-check px-1 color_success"></i> Finalizado</td>
+                            <td class="text-center">156</td>
+                            <td class="text-center">0</td>
+                            <td class="text-center"><a href="" class="btn btn-sm btn_estandar btn_blanco"><i
+                                        class="fa-regular fa-file-lines"></i>Ver detalle</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Fin Contenido -->
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-6" id="exampleModalLabel"> Agregar envío</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre de campaña</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Seleccionar</option>
+                            <option value="1">CEP - Marzo 2024</option>
+                            <option value="2">CEP - Setiembre 2023</option>
+                            <option value="3">CEP - Junio 2023</option>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card p-2 mb-3">
+                                <div class="text-center">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label" for="inlineCheckbox1">Certificado</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label" for="inlineCheckbox2">Constancia</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card p-2 mb-3">
+                                <div class="text-center">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input " type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio1" value="option1">
+                                        <label class="form-check-label" for="inlineRadio1">Campaña</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio2" value="option2">
+                                        <label class="form-check-label" for="inlineRadio2">Curso</label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                            id="inlineRadio3" value="option3">
+                                        <label class="form-check-label" for="inlineRadio3">Alumno</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <div class="col-12 text-end ">
+                        <a href="#" type="button" class="btn btn_cancelar btn_estandar ancho_160 mb-2"
+                            data-bs-dismiss="modal"><i class="fa-regular fa-circle-xmark"></i>Cancelar</a>
+                        <a href="#" type="button" class="btn btn_rojo btn_estandar ancho_160 mb-2"><i
+                                class="fa-regular fa-circle-check"></i>Agregar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fin Modal -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

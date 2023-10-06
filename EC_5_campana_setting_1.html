@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Campaña</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/all.css" />
+    <link rel="stylesheet" href="assets/css/estilos_ec.css" />
+
+</head>
+
+<body class="bg-light p-4">
+    <div class="container-fluid">
+        <!-- Titulo y breadcrumb -->
+        <div class="navegacion">
+            <div class="h4 mb-0 tit-seccion">
+                <span class="tit_seccion bold">Cursos CEP</span>
+            </div>
+            <div class="mibread">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item"><a href="#">Cursos CEP</a></li>
+                        <li class="breadcrumb-item">Noviembre 2023</li>
+
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Fin Titulo y breadcrumb -->
+
+        <!-- Contenido -->
+        <div class="card px-4 px-lg-5 px-sm-4 py-4">
+
+            <!-- Bloque Top -->
+            <div class="row d-flex align-items-center my-2">
+                <div class="col-12">
+                    <!-- Seccion Titulo y subtitulo -->
+                    <div class="card-body pt-1">
+                        <div class="row">
+                            <div class="d-flex bloque_regresar">
+                                <div class="btn_regresar">
+                                    <a href="" class="btn btn-lg btn_rojo"><i class="fa-solid fa-chevron-left"></i></a>
+                                </div>
+                                <div class="tit_bloque">
+                                    <div>Campaña: Marzo 2024</div>
+                                    <span>Información y configuración de la campaña</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Fin Seccion Titulo y subtitulo -->
+                </div>
+            </div>
+            <!-- Fin bloque Top -->
+
+
+            <!-- Contenido -->
+
+            <!-- Tab de contenidos -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12 mb-3">
+                    <!-- Menu tab -->
+                    <ul class="nav nav-pills nav-fill mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true"><i class="fa-light fa-database"></i>
+                                <span class="px-2">Importar registros</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false"><i class="fa-light fa-check-to-slot"></i><span
+                                    class="px-2">Solicitar
+                                    aprobación</span></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false"><i class="fa-light fa-file-check"></i><span
+                                    class="px-2">Documentos
+                                    aprobados</span></button>
+                        </li>
+
+                    </ul>
+                    <!-- Fin de Menu tab -->
+
+                    <!-- Cuerpo Tab -->
+                    <div class="tab-content cuerpo_card" id="pills-tabContent">
+                        <div class="tab-pane fade show active container-fluid px-4" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
+                            <div class="row py-5 d-flex justify-content-center">
+                                <!-- Bloque Top -->
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-lg-7 col-md-12">
+                                        <!-- Seccion Titulo y subtitulo -->
+                                        <div class="card-body pt-1">
+                                            <div class="row">
+                                                <div class="tit_bloque_tab">
+                                                    <div>Resultado de la importación:</div>
+                                                    <span>Total de registros importados: 236 | Total de Cursos:
+                                                        14</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Fin Seccion Titulo y subtitulo -->
+                                    </div>
+                                    <div
+                                        class="col-lg-5 col-md-12 text-lg-end text-md-start pb-lg-1 pb-md-3 pb-sm-3 pb-3">
+                                        <!-- Boton Nuevo -->
+                                        <div class="btn_add">
+                                            <a href="#" type="button"
+                                                class="btn btn-lg btn_blanco btn_estandar ancho_160 mb-1"><i
+                                                    class="fa-regular fa-trash-can color_verde"></i>Eliminar</a>
+                                            <a href="#" type="button"
+                                                class="btn btn-lg btn_blanco btn_estandar ancho_160 mb-1"><i
+                                                    class="fa-solid fa-arrows-rotate color_verde"></i>Actualizar</a>
+                                        </div>
+                                        <!-- Boton Nuevo -->
+                                    </div>
+                                </div>
+                                <!-- Fin bloque Top -->
+
+                                <!-- contenido grilla -->
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="card p-5">
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="mb-3">
+                                                        <label for="" class="form-label">Listado de Cursos</label>
+                                                        <select class="form-select form-control"
+                                                            aria-label="Default select example">
+                                                            <option selected>Seleccione</option>
+                                                            <option value="1">Marketing Digital</option>
+                                                            <option value="2">Community Manager</option>
+
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="mt-1 table-responsive">
+                                                        <table class="table table-striped tabla_grilla">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Nro</th>
+                                                                    <th>Apellidos y nombres</th>
+                                                                    <th>Email</th>
+                                                                    <th class="text-center">Actividad 1</th>
+                                                                    <th class="text-center">Actividad 2</th>
+                                                                    <th class="text-center">Trabajo final</th>
+                                                                    <th class="text-center">Nota final</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th>01</th>
+                                                                    <td>Rodriguez Martines, Julio eduardo</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>02</th>
+                                                                    <td>Alvarez Tello, Luis Alberto</td>
+                                                                    <td>alvarezt@hotmail.com</td>
+                                                                    <td class="text-center">11</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">16</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>03</th>
+                                                                    <td>Guzman Barron, Julia María</td>
+                                                                    <td>guzmanbarron@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>04</th>
+                                                                    <td>Quezada Roman, Eddie Arnold</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                    <td class="text-center">19</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>05</th>
+                                                                    <td>Rodriguez Martines, Julio eduardo</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>06</th>
+                                                                    <td>Alvarez Tello, Luis Alberto</td>
+                                                                    <td>alvarezt@hotmail.com</td>
+                                                                    <td class="text-center">11</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">16</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>07</th>
+                                                                    <td>Guzman Barron, Julia María</td>
+                                                                    <td>guzmanbarron@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>08</th>
+                                                                    <td>Quezada Roman, Eddie Arnold</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                    <td class="text-center">19</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>09</th>
+                                                                    <td>Rodriguez Martines, Julio eduardo</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>10</th>
+                                                                    <td>Alvarez Tello, Luis Alberto</td>
+                                                                    <td>alvarezt@hotmail.com</td>
+                                                                    <td class="text-center">11</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">16</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>11</th>
+                                                                    <td>Guzman Barron, Julia María</td>
+                                                                    <td>guzmanbarron@gmail.com</td>
+                                                                    <td class="text-center">15</td>
+                                                                    <td class="text-center">18</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>12</th>
+                                                                    <td>Quezada Roman, Eddie Arnold</td>
+                                                                    <td>rmartines@gmail.com</td>
+                                                                    <td class="text-center">13</td>
+                                                                    <td class="text-center">14</td>
+                                                                    <td class="text-center">17</td>
+                                                                    <td class="text-center">19</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin contenido grilla -->
+
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
+
+                            <div class="card card_rojo p-5 text-center ">
+                                <p><i class="fa-regular fa-file-circle-info fs-3 color_rojo "></i></p>
+                                <div class="fw-bold ">Requisito para solicitar aprobación</div>
+                                <div class="texto_small">Para solicitar aprobación se requiere importar los registros en
+                                    al paso anterior.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab" tabindex="0">
+
+                            <div class="card card_rojo p-5 text-center ">
+                                <p><i class="fa-regular fa-file-circle-info fs-3 color_rojo "></i></p>
+                                <div class="fw-bold ">Requisito para visualizar documentos</div>
+                                <div class="texto_small">Para poder visualizar los documentos se requiere que el área de
+                                    decanato haya <br>revisado y
+                                    aprobado
+                                    todos los documentos
+                                    enviados.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cuerpo Tab -->
+
+
+                </div>
+
+            </div>
+            <!-- Fin de Tab de contenidos -->
+
+
+
+            <!-- Fin de Contenido -->
+
+
+
+
+        </div>
+        <!-- Fin Contenido -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
